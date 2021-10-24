@@ -17,7 +17,7 @@ function Tags() {
                 dropdownItem : function(tagData){
                         return `<div class='tagify__dropdown__item ${tagData.class ? tagData.class : ""}'>
                                     <img onerror="this.style.visibility = 'hidden'"
-                                        src='https://lipis.github.io/flag-icon-css/flags/4x3/${tagData.code.toLowerCase()}.svg'>
+                                        src='https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/${tagData.code.toLowerCase()}.svg'>
                                     <span>${tagData.value}</span>
                                 </div>`;
                 }
