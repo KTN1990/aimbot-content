@@ -8,7 +8,7 @@ function Tags() {
                                 <x title='remove tag' class='tagify__tag__removeBtn'></x>
                                 <div>
                                     ${tagData.code ?
-                                    `<img onerror="this.style.visibility = 'hidden'" src='https://lipis.github.io/flag-icon-css/flags/4x3/${tagData.code.toLowerCase()}.svg'>` : ''
+                                    `<img onerror="this.style.visibility = 'hidden'" src='https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/${tagData.code.toLowerCase()}.svg'>` : ''
                                     }
                                     <span class='tagify__tag-text'>${tagData.value}</span>
                                 </div>
